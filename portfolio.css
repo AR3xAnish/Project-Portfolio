@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.anish{
+    /* background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    width: 85%;
+    margin: 2% 8% 0;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+.yash{
+    background-color: blue;
+    color: white;
+    height: 25px;
+    width: 90px;
+    transition: all;
+}
+.yash:hover{
+    transform: scale(1.3);
+}
+
+.image{
+    width: 200px;
+}
+.pic{
+    box-shadow: 9px -10px white, 16px -16px blue ;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.test{
+    /* border: black solid 4px; */
+    margin: 3% 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.icon{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 15%;
+    margin: 5%;
+    gap: 13px;
+    transition: all;
+}
+.icons:hover{
+    /* border: black 4px solid;
+    border-radius: 18px;
+    padding: 2px; */
+    transform: scale(1.5);
+}
+.icons{
+    width: 40px;
+}
+.decorate{
+    height: 150px;
+    width: 20px;
+    border-right: blue solid 6px;
+}
+
+.right{
+    height: 150px;
+    width: 15px;
+    position: absolute;
+    right: 5%;
+    
+}
+.email{
+    font-size: larger;
+    color: blue;
+    font-weight: 500;
+    /* margin-top: 100%; */
+    rotate: 270deg;
+    margin-left: 100%;
+}
+.intro{
+    width: 70%;
+    position: relative;
+    left: 17%;
+}
+p{
+    font-size: 30px;
+}
+
+.contact{
+    background-color: blue;
+    color: aliceblue;
+    font-size: 20px;
+    height: 50px;
+    width: 180px;
+    margin: 4% 4%;
+}
+.open{
+    font-size: 35px;
+}
+.skills{
+    margin: 7% 13% ;
+}
+
+/* table*/
+.table{
+    height: 70vh;
+    width: 70vw;
+    box-shadow: 1px 1px 32px black;
+    border-radius: 2%;
+    margin-top: 2%;
+    padding: 5%;
+    font-size: 200%;
+}
+.table1{
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.block{
+    margin-left: 10%;
+    height: 60px;
+    width: 77%;
+    border: solid black 1px;
+    border-radius: 7%;
+}
+
+/* python */
+#python1{
+    background-color: blue;
+    opacity: 0.3;
+}
+#python2{
+    background-color: blue;
+    opacity: 0.4; 
+}
+#python3{
+    background-color: blue;
+    opacity: 0.5; 
+}
+
+/* SQL */
+#SQL1{
+    background-color: blue;
+    opacity: 0.3;
+}
+#SQL2{
+    background-color: blue;
+    opacity: 0.4;
+}
+#SQL3{
+    background-color: blue;
+    opacity: 0.5;
+}
+#SQL4{
+    background-color: blue;
+    opacity: 0.6;
+}
+
+/* HTML */
+#HTML1{
+    background-color: blue;
+    opacity: 0.3;
+}
+#HTML2{
+    background-color: blue;
+    opacity: 0.4;
+}
+#HTML3{
+    background-color: blue;
+    opacity: 0.5;
+}
+#HTML4{
+    background-color: blue;
+    opacity: 0.6;
+}
+#HTML5{
+    background-color: blue;
+    opacity: 0.8;
+}
+
+/* CSS */
+#CSS1{
+    background-color: blue;
+    opacity: 0.3;
+}
+#CSS2{
+    background-color: blue;
+    opacity: 0.4;
+}
+#CSS3{
+    background-color: blue;
+    opacity: 0.5;
+}
+
+/* javascript */
+
+#close{
+    width: 20%;
+    position: relative;
+    left: 70%;
+}
+
+/* projects */
+.projects{
+    margin: 7% 13% ;
+}
+.para{
+    margin-top: 5%;
+}
+.projectheading{
+    font-size: 20px;
+}
+.projectpara{
+    font-size: 15px;
+}
+.projectbox{
+    margin-top: 7%;
+}
+.project{
+    border-radius: 5%;
+    box-shadow: 1px 1px 8px black;
+    height: 250px;
+    width: 400px;
+    gap: 7px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.git{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.langbox{
+    margin-top: 5px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.language{
+    background-color: rgb(179, 179, 255);
+}
+
+/* Get In Touch */
+.touch{
+    margin: 7% 13%;
+}
+
+#end{
+    margin: 3% 0%;
+}
+
+.ending{
+    height: 50px;
+    font-family: monospace;
+    background-color: grey;
+}
